@@ -33,9 +33,10 @@ execute following commands on your PI:
 
 insert your SIM into the modem and connect it to the PI
 
-open `/etc/wvdial.conf` and insert your configuration
 
-just google **wvdial + your provider**
+google **wvdial + your provider** to find the right configuration
+
+open `/etc/wvdial.conf` and insert your configuration
 
 after you set up your wvdial.conf the next step is to configure pyrat
 
@@ -52,22 +53,46 @@ pyrat automatically copies to  `/usr/bin/`
 ### edit rc.local
 
 after you edit `/etc/rc.local` it should look like this:
-
-`#!/bin/sh -e
-
-wvdial  *your config* &
-
+-----------------------------
+#!/bin/sh -e
+wvdial  **your config here** &
 sleep 10
-
 pyrat &
-
-exit 0`
-
-### last step
+exit 0
+-----------------------------
 
 run `chmod +x /etc/rc.local`
 
-connect your Wifi adapter to your PI, put everything in a box and you are ready to go
+### connect the Hardware
+
+connect your Wifi adapter to your PI and put everything in a box.
+
+### How to use:
+after boot up the PI sends you a message via telegram
+
+in telegram app you can type:
+
+**/ssh** generates a command you can run on your linux-pc to connect from anywhere
+
+**/reboot** self explaining
+
+**/shutdown** should be used to turn the PI off   
+
+**/help** shows a list of commands
+
+
+
+
+### Demonstartion:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=wne8PfzcNDQ
+" target="_blank"><img src="http://img.youtube.com/vi/wne8PfzcNDQ/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
+# you can also find some pics of my build in the images Folder
+
+
 
 
 

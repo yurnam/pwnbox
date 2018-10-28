@@ -58,7 +58,7 @@ ____________________________
 
 wvdial  **your config here** &
 
-sleep 10
+sleep 25
 
 pyrat &
 

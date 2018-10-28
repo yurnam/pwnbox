@@ -219,7 +219,7 @@ def handle(msg):
 			elif command == '/shutdown':
 				bot.sendChatAction(chat_id, 'typing')
 				command = os.popen('shutdown -t 10 &')
-				response = uname + ': Computer will be shutdown in 10 seconds.'				
+				response = uname + ': Computer will be shutdown in 1 minute.'				
 			elif command.startswith('/to'):
 				command = command.replace('/to','')
 				if command == '':

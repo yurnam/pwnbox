@@ -55,9 +55,13 @@ pyrat automatically copies to  `/usr/bin/`
 after you edit `/etc/rc.local` it should look like this:
 ____________________________
 #!/bin/sh -e
+
 wvdial  **your config here** &
+
 sleep 10
+
 pyrat &
+
 exit 0
 ____________________________
 

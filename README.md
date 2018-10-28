@@ -14,4 +14,23 @@ Hack Wifi anywhere with a Raspberry Pi and a HSUPA Modem
 5.) a Box to mount everything
 
 
+## Setting it up:
+First set up the PI. I recommend to use **Sticky-Fingers-Kali-Pi** for this project.
+### Important:
+**ssh needs to be enabled before login**
+
+
+execute following commands on your PI:
+
+`apt install wvdial`
+`pip install telepot`
+`ssh -R  kalilinux:22:localhost:22 serveo.net`  and type yes to permanently add the ssh key of serveo.net
+
+
+
+
+
+
+
+
 

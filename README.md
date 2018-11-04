@@ -17,7 +17,7 @@ Hack Wifi anywhere with a Raspberry Pi and a HSUPA Modem
 ## Setting it up:
 First set up the PI. I recommend to use **Sticky-Fingers-Kali-Pi** for this project.
 ### Important:
-**ssh needs to be enabled before login**
+**ssh needs to be configured to run at startup**
 
 just google it there are many tutorials out there
 
@@ -40,7 +40,7 @@ open `/etc/wvdial.conf` and insert your configuration
 
 after you set up your wvdial.conf the next step is to configure pyrat
 
-create a **telegram bot** [click](https://api.telegram.org/bot)
+create a **telegram bot** [here](https://api.telegram.org/)
 
 open `pyrat.py` and insert your chat-id and your API-Token
 
